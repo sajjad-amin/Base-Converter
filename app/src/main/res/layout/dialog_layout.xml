@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/RED400">
+
+    <TextView
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECT CONVERSION"
+        android:textSize="25sp"/>
+    <ScrollView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/GRAY200"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/DecToBin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Decimal to Binary"/>
+            <Button
+                android:id="@+id/DecToOct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Decimal to Octal"/>
+            <Button
+                android:id="@+id/DecToHex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Decimal to Hexadecimal"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/GRAY200"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/BinToDec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Binary to Decimal"/>
+            <Button
+                android:id="@+id/OctToDec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Octal to Decimal"/>
+            <Button
+                android:id="@+id/HexToDec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Hexadecimal to Decimal"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/GRAY200"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/BinToOct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Binary to Octal"/>
+            <Button
+                android:id="@+id/BinToHex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Binary to Hexadecimal"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/GRAY200"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/OctToBin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Octal to Binary"/>
+            <Button
+                android:id="@+id/HexToBin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Hexadecimal to Binary"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/GRAY200"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/OctToHex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Octal to Hexadecimal"/>
+            <Button
+                android:id="@+id/HexToOct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Hexadecimal to Octal"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

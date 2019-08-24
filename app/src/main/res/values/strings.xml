@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Base Converter</string>
+    <string name="app_details">This app is made for convert various base number.\nYou can convert the following methods :\n\n
+        1. Decimal to Binary\n
+        2. Decimal to Octal\n
+        3. Decimal to Hexadecimal\n
+        4. Binary to Decimal\n
+        5. Octal to Decimal\n
+        6. Hexadecimal to Decimal\n
+        7. Binary to Octal\n
+        8. Binary to Hexadecimal\n
+        9. Octal to Binary\n
+        10. Hexadecimal to Binary\n
+        11. Octal to Hexadecimal\n
+        12. Hexadecimal to Octal
+    </string>
+</resources>

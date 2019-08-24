@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/about_app"
+            android:title="About Application"
+            android:icon="@drawable/about_app"/>
+        <item
+            android:id="@+id/about_developer"
+            android:title="About Developer"
+            android:icon="@drawable/about_developer"/>
+        <item
+            android:id="@+id/share_app"
+            android:title="Share This App"
+            android:icon="@drawable/share"/>
+        <item
+            android:id="@+id/exit_app"
+            android:title="Exit App"
+            android:icon="@drawable/exit_app"/>
+    </group>
+</menu>
